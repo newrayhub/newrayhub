@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.whole{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.one{
+    width: 45vw;
+    height: 100vh;
+    /* background: rgb(199, 27, 27); */
+    margin-right: 50vw;
+    position: absolute;
+    
+
+   
+}
+.two{
+    margin: 0;
+    padding: 0;
+    width: 55vw;
+    height: 100vh;
+    margin-left: 45vw;
+    background-color: rgb(24, 250, 3);
+    border: black;
+    position: absolute;
+    border-radius: 50px;
+}
+.info{
+    width: 45vw;
+    height: 96vh;
+    background-color: white;
+    position: absolute;
+    padding-top: 4vh;
+    border-radius: 50px;
+}
+h1{
+    background-color: aqua;
+    padding:2vh;
+    width: fit-content;
+    
+    margin-left: 15vw;
+
+    margin-right: 10vw;
+    text-align: center;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif ;
+    box-shadow: 10px 10px 10px pink;
+
+}
+p{
+    background-color: aqua;
+    padding:5vh;
+    margin-top: 2vh;
+    height: 40vh;
+    width: 32vw;
+    margin-left: 4vw;
+    margin-top: 4vh;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    box-shadow: 10px 10px 10px pink;
+}
+
+.body{
+    
+
+    padding-top:2vh;
+    margin-top: 0vh;
+    height:90vh;
+    width: 55vw;
+    border-radius: 30px;
+   /* background-color: green; */
+  
+    
+}
+body{
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+}
+
+#board{
+    width: 45vw;
+    height: 80vh;
+    margin-left:5vw;
+    margin-right:2vw;
+    margin-top: 8vh;
+    background-color: rgb(13, 14, 13);
+    border-radius: 12px;
+    display: grid;
+    grid-template-rows: repeat(25,1fr);
+    grid-template-columns: repeat(32,1fr);
+    /* box-shadow:10px 10px 10px rgb(170, 154, 154); */
+    border-style: dashed ;
+    border-color: blanchedalmond;
+
+}
+.food{
+    background-color: rgb(207, 243, 4);
+    border : solid rgb(0, 0, 7) 1px;
+    border-radius: 100px;
+    
+    text-align: center;
+    padding: 4px;
+
+}
+.head{
+    background-color: rgb(180, 60, 5);
+    border-radius: 5px;
+
+    border: solid rgb(250, 240, 240) 1px;
+ 
+
+    
+
+}
+.snake{
+    background-color: rgb(56, 50, 50);
+    border-radius: 5px;
+ 
+}
+#scoreBox{
+    /* position: absolute; */
+    height:8vh;
+    width: 37vw;
+    margin-top: 3vh;
+    background-color: green;
+    margin-left: 4vw;
+    border-radius: 30px;
+
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+#highscoreBox{
+    /* position: absolute; */
+    height:8vh;
+    width: 37vw;
+    margin-top: 2vh;
+    background-color: rgb(59, 27, 134);
+    margin-left:4vw;
+    border-radius: 30px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+
